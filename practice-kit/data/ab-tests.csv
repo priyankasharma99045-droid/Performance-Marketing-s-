@@ -1,0 +1,9 @@
+test,variant,visitors_or_impressions,conversions_or_clicks
+Landing page headline,"A - Fresh coffee, delivered",4000,120
+Landing page headline,"B - Roasted this week, at your door in 3 days",4000,164
+Button color,A - Green,1500,45
+Button color,B - Orange,1500,52
+Meta ad hook (clicks per impression),A - Product first,20000,220
+Meta ad hook (clicks per impression),B - Problem first,20000,290
+Price display,A - $36 per bag,600,30
+Price display,B - $1.20 per cup,600,42

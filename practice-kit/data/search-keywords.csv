@@ -1,0 +1,7 @@
+keyword,match_type,ad_group,quality_score,expected_ctr,ad_relevance,landing_page_experience,impressions,clicks,cost,conversions,conv_value,search_impr_share,search_lost_is_budget,search_lost_is_rank
+buy coffee beans online,Exact,Coffee Beans,8,Above average,Above average,Average,4200,210,220.50,12,420.00,52%,38%,10%
+coffee beans,Phrase,Coffee Beans,6,Average,Average,Average,30100,1114,1136.28,33,1155.00,41%,31%,28%
+coffee subscription,Broad,Coffee Subscription,7,Average,Above average,Average,13700,581,650.72,26,988.00,47%,35%,18%
+coffee gift,Phrase,Gifts,4,Below average,Below average,Below average,4600,206,267.80,10,400.00,22%,6%,72%
+specialty coffee,Broad,Coffee Beans,5,Average,Below average,Average,7600,182,227.50,2,61.00,30%,12%,58%
+fresh roasted coffee,Phrase,Coffee Beans,9,Above average,Above average,Above average,2900,174,165.30,13,494.00,58%,40%,2%

@@ -1,0 +1,7 @@
+Campaign,Campaign Type,Budget,Bid Strategy Type,Ad Group,Keyword,Criterion Type,Headline 1,Headline 2,Headline 3,Headline 4,Headline 5,Headline 6,Headline 7,Headline 8,Headline 9,Headline 10,Headline 11,Headline 12,Headline 13,Headline 14,Headline 15,Description 1,Description 2,Description 3,Description 4,Final URL,Path 1,Path 2
+PEB_Search_Generic_US,Search,30.00,Maximize conversions,,,,,,,,,,,,,,,,,,,,,,,,,
+PEB_Search_Generic_US,,,,Coffee Beans,,,,,,,,,,,,,,,,,,,,,,,,
+PEB_Search_Generic_US,,,,Coffee Beans,buy coffee beans online,Exact,,,,,,,,,,,,,,,,,,,,,,
+PEB_Search_Generic_US,,,,Coffee Beans,fresh roasted coffee,Phrase,,,,,,,,,,,,,,,,,,,,,,
+PEB_Search_Generic_US,,,,Coffee Beans,free,Negative Phrase,,,,,,,,,,,,,,,,,,,,,,
+PEB_Search_Generic_US,,,,Coffee Beans,,,Fresh Roasted Coffee Beans,Roasted This Week,At Your Door in 3 Days,,,,,,,,,,,,,Small-batch specialty beans roasted every Monday. Free shipping on subscriptions.,Pick your roast and schedule. Pause or cancel any time.,,,https://YOUR_USERNAME.github.io/pm-landing-page/,coffee,fresh

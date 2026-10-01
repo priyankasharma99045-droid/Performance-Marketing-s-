@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pebble Coffee Co. | Fresh coffee, delivered</title>
+  <meta name="description" content="Specialty coffee roasted this week and delivered in 3 days. Practice landing page for learning performance marketing.">
+
+  <!-- LESSON 19: paste the consent mode default snippet here, ABOVE the Tag Manager snippet. -->
+
+  <!-- LESSON 16: paste the Google Tag Manager <head> snippet here. -->
+
+  <style>
+    :root {
+      --ink: #2b211b;
+      --muted: #6b5d53;
+      --paper: #fbf7f2;
+      --accent: #b5542c;
+      --accent-dark: #8f3f1f;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.5;
+    }
+    .wrap { max-width: 960px; margin: 0 auto; padding: 0 16px; }
+    header { padding: 16px 0; font-weight: 700; }
+    .hero { padding: 48px 0 32px; display: grid; gap: 32px; grid-template-columns: 1fr; }
+    @media (min-width: 760px) { .hero { grid-template-columns: 1.2fr 1fr; align-items: center; } }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.1; margin: 0 0 16px; }
+    .sub { font-size: 1.15rem; color: var(--muted); margin: 0 0 24px; }
+    .btn {
+      display: inline-block; background: var(--accent); color: #fff; border: 0;
+      padding: 14px 24px; border-radius: 8px; font-size: 1rem; font-weight: 600;
+      text-decoration: none; cursor: pointer;
+    }
+    .btn:hover { background: var(--accent-dark); }
+    .card { background: var(--card); border-radius: 12px; padding: 24px; box-shadow: 0 2px 12px rgba(0,0,0,.06); }
+    .benefits { display: grid; gap: 16px; grid-template-columns: 1fr; padding: 16px 0 48px; }
+    @media (min-width: 760px) { .benefits { grid-template-columns: repeat(3, 1fr); } }
+    .benefits h3 { margin: 0 0 8px; }
+    .benefits p { margin: 0; color: var(--muted); }
+    .proof { padding: 0 0 48px; }
+    blockquote { margin: 0; font-style: italic; }
+    form label { display: block; font-weight: 600; margin: 12px 0 4px; }
+    form input, form select {
+      width: 100%; padding: 12px; border: 1px solid #d9cfc6; border-radius: 8px; font-size: 1rem;
+    }
+    form .btn { width: 100%; margin-top: 16px; }
+    #thank-you { display: none; }
+    footer { padding: 32px 0; color: var(--muted); font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <!-- LESSON 16: paste the Google Tag Manager <noscript> snippet here, right after <body>. -->
+
+  <div class="wrap">
+    <header>Pebble Coffee Co.</header>
+
+    <section class="hero">
+      <div>
+        <h1>Coffee roasted this week, at your door in 3 days</h1>
+        <p class="sub">Small-batch specialty beans. Pick your roast, pause or cancel any time.</p>
+        <a class="btn" id="cta-hero" href="#signup">Get 20% off your first bag</a>
+      </div>
+
+      <div class="card" id="signup">
+        <div id="signup-form-wrap">
+          <h2>Claim your 20% off</h2>
+          <form id="lead-form">
+            <label for="name">First name</label>
+            <input id="name" name="name" autocomplete="given-name" required>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+
+            <label for="roast">Favorite roast</label>
+            <select id="roast" name="roast">
+              <option>Light</option>
+              <option selected>Medium</option>
+              <option>Dark</option>
+            </select>
+
+            <button class="btn" type="submit" id="submit-lead">Send my code</button>
+          </form>
+        </div>
+        <div id="thank-you">
+          <h2>Check your inbox</h2>
+          <p>Your 20% code is on its way. (Practice page: no email is sent.)</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="card"><h3>Always fresh</h3><p>We roast on Monday and ship by Wednesday.</p></div>
+      <div class="card"><h3>Your schedule</h3><p>Every 2, 3, or 4 weeks. Pause in one click.</p></div>
+      <div class="card"><h3>Free shipping</h3><p>On every subscription order.</p></div>
+    </section>
+
+    <section class="proof">
+      <div class="card">
+        <blockquote>"The first bag that tasted like my favorite cafe."</blockquote>
+        <p>Sample review, practice page</p>
+      </div>
+    </section>
+
+    <footer>
+      Pebble Coffee Co. is a fictional business used for practice.
+    </footer>
+  </div>
+
+  <script>
+    // The form never sends data anywhere. It shows a thank-you message and
+    // pushes a generate_lead event so Tag Manager has something to track (lesson 17).
+    window.dataLayer = window.dataLayer || [];
+    document.getElementById('lead-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      window.dataLayer.push({
+        event: 'generate_lead',
+        lead_source: 'landing_page_form',
+        roast: document.getElementById('roast').value
+      });
+      document.getElementById('signup-form-wrap').style.display = 'none';
+      document.getElementById('thank-you').style.display = 'block';
+    });
+  </script>
+
+  <!-- LESSON 19: paste the consent banner markup and script here, before </body>. -->
+</body>
+</html>
