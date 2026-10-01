@@ -1,28 +1,37 @@
-# Weekly Report · Week __ · <date range>
+# Weekly performance report: <business name>
 
-## Summary (3 lines)
-- Result:
-- Why:
-- Next:
+**Week:** <date range> · **Compared with:** <previous week>
+
+## Summary
+
+- **Result:** <one sentence: the KPI against target, and the change from last week>
+- **Why:** <one sentence: the main driver>
+- **Next:** <one sentence: the most important action>
 
 ## Numbers
-| Channel | Spend | Clicks | CTR | Conversions | CPA | ROAS |
-| --- | --- | --- | --- | --- | --- | --- |
-| Google Ads | | | | | | |
-| Meta | | | | | | |
-| **Total** | | | | | | |
+
+| Channel | Spend | Conversions | CPA | ROAS | Change in ROAS |
+|---|---|---|---|---|---|
+| | | | | | |
+| **Total** | | | | | |
+
+- **MER (from the business's own sales data):**
+- **Target CPA or ROAS:**
 
 ## What changed this week
-- 
+
+<!-- Changes you made, and outside events: promotions, site issues, holidays. -->
+
+-
 
 ## Insights
-- 
+
+<!-- What, why, and so what. One finding per bullet. -->
+
+-
 
 ## Next week's actions
-- [ ] 
-- [ ] 
 
-## Learning progress
-- Days completed: __ / 7
-- Certifications earned:
-- Blockers / questions:
+| Action | Why | Expected result |
+|---|---|---|
+| | | |

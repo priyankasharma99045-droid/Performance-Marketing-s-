@@ -1,113 +1,147 @@
-# Performance Marketing: 60 Days to Industry Ready
+# Performance marketing in 8 weeks
 
-Learning + implementing performance marketing, 1 hour a day, **Sep 30 – Nov 28, 2026**.
-Full plan: [Performance Marketing: 60-Day Roadmap](https://claude.ai/code/artifact/b1679840-3611-498f-ae65-ff02e03e380f)
+A self-paced course that takes you from no marketing knowledge to planning, building, measuring,
+and optimizing paid campaigns. One hour a day, six days a week, with a hands-on practice every
+day. Everything is free: you never need to spend money on ads.
 
-**Daily split:** 25 min Learn · 30 min Implement · 5 min Log (`templates/daily-log.md`)
+## Start here
+
+1. Read [How to study](docs/00-start-here/how-to-study.md). It takes 5 minutes.
+2. Check the [setup guide](docs/00-start-here/setup.md). You only need a Google account to begin.
+3. Start [Lesson 1: What performance marketing is](docs/phase-1-foundations/01-what-is-performance-marketing/lesson.md).
+
+## How each day works
+
+| Time | Step |
+|---|---|
+| 25 min | **Learn:** Read the lesson and one linked resource |
+| 30 min | **Practice:** Do the hands-on task and the self-check quiz |
+| 5 min | **Notes:** Fill in your lesson notes in `my-work/notes/` |
+
+Monday to Friday is one lesson a day. Saturday is a weekly review or a phase checkpoint. Sunday is
+rest.
+
+## Course map
+
+| Phase | Weeks | Topics | Checkpoint project |
+|---|---|---|---|
+| [1. Foundations](docs/phase-1-foundations/README.md) | 1–2 | Funnels, metrics, unit economics, spreadsheets, customer research, copy, landing pages | Marketing brief |
+| [2. Tracking and analytics](docs/phase-2-tracking-and-analytics/README.md) | 3–4 | Tags, UTMs, GA4, Google Tag Manager, conversions, Conversions API, consent, attribution | Tracking plan and live setup |
+| [3. Google Ads](docs/phase-3-google-ads/README.md) | 5–6 | Auction, keywords, structure, ads, bidding, optimization, Performance Max, YouTube | Google Search case study |
+| [4. Meta, other channels, and strategy](docs/phase-4-meta-and-strategy/README.md) | 7–8 | Meta ads, creative testing, full funnel, other channels, media planning, reporting, incrementality | Meta case study and media plan |
+
+## What's in this repo
+
+```
+README.md               course home and progress tracker (this file)
+docs/
+  00-start-here/        how to study, and account setup
+  phase-1-foundations/
+    README.md           phase goals, lesson list, weekly review
+    01-.../
+      lesson.md         25-minute lesson
+      practice.md       30-minute hands-on practice with a self-check quiz
+    checkpoint.md       end-of-phase project and quiz
+  phase-2-.../          same layout for each phase
+  reference/            glossary, metrics cheat sheet, all resource links
+practice-kit/
+  data/                 sample campaign data for a fictional store
+  landing-page/         a web page you publish and track
+  templates/            Search campaign build sheet
+templates/              notes, reviews, brief, tracking plan, case study, media plan, weekly report
+my-work/
+  notes/                your lesson notes and weekly reviews
+  projects/             your four checkpoint projects (your portfolio)
+```
+
+## Reference
+
+- [Glossary](docs/reference/glossary.md): Every term in plain language.
+- [Metrics cheat sheet](docs/reference/metrics-cheatsheet.md): Every formula, with worked examples.
+- [Resources](docs/reference/resources.md): Every external link, by topic.
+- [Practice kit](practice-kit/README.md): What each sample data file contains.
 
 ## Progress
 
-| Phase | Dates | Days | Status |
-| --- | --- | --- | --- |
-| 1. Foundations + Tracking | Sep 30 – Oct 13 | 1–14 | In progress |
-| 2. Google Ads | Oct 14 – Oct 29 | 15–30 | Not started |
-| 3. Meta + Other Channels | Oct 30 – Nov 14 | 31–46 | Not started |
-| 4. Advanced + Job Ready | Nov 15 – Nov 28 | 47–60 | Not started |
+Tick each item when you finish its practice, not when you finish reading. This checklist is the
+only progress tracker.
 
-## Certifications
+### Phase 1: Foundations
 
-- [ ] Google Analytics Certification (Day 12, Oct 11)
-- [ ] Google Ads Search Certification (Day 22, Oct 21)
-- [ ] Google Ads Measurement Certification (Day 27, Oct 26)
-- [ ] Google Ads Display or Video Certification (Day 30, Oct 29)
-- [ ] HubSpot Digital Advertising Certification (Day 44, Nov 12)
-- [ ] Meta Certified Media Buying Professional (optional, after Nov 28)
+**Week 1**
 
-## Case studies
+- [ ] Lesson 1: What performance marketing is
+- [ ] Lesson 2: Funnel and customer journey
+- [ ] Lesson 3: Core metrics
+- [ ] Lesson 4: Unit economics
+- [ ] Lesson 5: Spreadsheets for marketers
+- [ ] Week 1 review
 
-- [ ] [Case Study 1: Google Search campaign](case-studies/01-google-search.md)
-- [ ] [Case Study 2: Meta campaign](case-studies/02-meta.md)
-- [ ] [Case Study 3: Full-funnel strategy + media plan](case-studies/03-strategy.md)
+**Week 2**
 
-## Daily tracker
+- [ ] Lesson 6: Customer research and personas
+- [ ] Lesson 7: Offer, positioning, and copy
+- [ ] Lesson 8: Competitor research
+- [ ] Lesson 9: Landing pages and conversion
+- [ ] Lesson 10: Putting it together
+- [ ] Phase 1 checkpoint: Marketing brief
 
-### Phase 1: Foundations + Tracking
-- [ ] Day 1 · Sep 30 · Funnel + AIDA → Drive folder, Learning Log, pick practice business
-- [ ] Day 2 · Oct 1 · Core metrics → metrics calculator in Sheets
-- [ ] Day 3 · Oct 2 · Unit economics → target CPA + break-even ROAS
-- [ ] Day 4 · Oct 3 · Customer research → 2 personas, offer, 3 USPs
-- [ ] Day 5 · Oct 4 · Competitor research → 10 competitor ads analysed
-- [ ] Day 6 · Oct 5 · Landing page basics → build landing page
-- [ ] Day 7 · Oct 6 · Review → PageSpeed fixes
-- [ ] Day 8 · Oct 7 · GA4 basics → GA4 property installed
-- [ ] Day 9 · Oct 8 · GTM basics → GA4 via GTM, click tracking
-- [ ] Day 10 · Oct 9 · GA4 key events → lead/purchase key event verified
-- [ ] Day 11 · Oct 10 · Reports + UTMs → UTM links, funnel exploration
-- [ ] Day 12 · Oct 11 · **GA4 Certification**
-- [ ] Day 13 · Oct 12 · Meta Pixel + CAPI → Pixel via GTM, domain verified
-- [ ] Day 14 · Oct 13 · Review → Microsoft Clarity, Phase 1 summary
+### Phase 2: Tracking and analytics
 
-### Phase 2: Google Ads
-- [ ] Day 15 · Oct 14 · Account structure, auction, Quality Score → Google Ads account, link GA4
-- [ ] Day 16 · Oct 15 · Keyword research → 50 keywords, ad groups, negatives
-- [ ] Day 17 · Oct 16 · RSAs + assets → headlines, descriptions, sitelinks, callouts
-- [ ] Day 18 · Oct 17 · Conversion tracking → Google Ads conversion via GTM
-- [ ] Day 19 · Oct 18 · Bidding + budgets → build campaign in Ads Editor
-- [ ] Day 20 · Oct 19 · Settings + policies → **launch Search campaign**
-- [ ] Day 21 · Oct 20 · Search terms report → add negatives
-- [ ] Day 22 · Oct 21 · **Google Ads Search Certification**
-- [ ] Day 23 · Oct 22 · Performance Max → draft PMax
-- [ ] Day 24 · Oct 23 · Shopping + Merchant Center → 10-product feed
-- [ ] Day 25 · Oct 24 · Display, Demand Gen, audiences → remarketing lists
-- [ ] Day 26 · Oct 25 · Attribution + data gaps → Ads vs GA4 comparison
-- [ ] Day 27 · Oct 26 · **Google Ads Measurement Certification**
-- [ ] Day 28 · Oct 27 · YouTube ads + ABCD → 15-sec video ad
-- [ ] Day 29 · Oct 28 · Optimisation → optimise live campaign
-- [ ] Day 30 · Oct 29 · **Display or Video Certification** → draft Case Study 1
+**Week 3**
 
-### Phase 3: Meta + Other Channels
-- [ ] Day 31 · Oct 30 · Meta structure + objectives → Blueprint Ads Manager course
-- [ ] Day 32 · Oct 31 · Audiences → custom audiences + 1% lookalike
-- [ ] Day 33 · Nov 1 · Placements + budgets → campaign plan; pause Google campaign
-- [ ] Day 34 · Nov 2 · Creative strategy → 3 statics, 1 video, 3 primary texts
-- [ ] Day 35 · Nov 3 · Bid strategies + learning phase → **launch Meta campaign**
-- [ ] Day 36 · Nov 4 · Reporting → custom columns preset
-- [ ] Day 37 · Nov 5 · Creative testing → A/B test 2 hooks
-- [ ] Day 38 · Nov 6 · Advantage+ + catalog → Commerce Manager
-- [ ] Day 39 · Nov 7 · Optimisation → shift budget, pause bottom ads
-- [ ] Day 40 · Nov 8 · Retargeting → retargeting ad set
-- [ ] Day 41 · Nov 9 · Review → draft Case Study 2
-- [ ] Day 42 · Nov 10 · LinkedIn Ads → draft Lead Gen campaign
-- [ ] Day 43 · Nov 11 · TikTok + Microsoft Ads → drafts / import
-- [ ] Day 44 · Nov 12 · **HubSpot Digital Advertising Certification**
-- [ ] Day 45 · Nov 13 · Email + CRM → 3-email flow, CRM pipeline
-- [ ] Day 46 · Nov 14 · Channel mix → channel plan for 4 business types
+- [ ] Lesson 11: How tracking works
+- [ ] Lesson 12: UTMs and naming conventions
+- [ ] Lesson 13: GA4 core concepts
+- [ ] Lesson 14: GA4 reports and explorations
+- [ ] Lesson 15: Publish your landing page
+- [ ] Week 3 review
 
-### Phase 4: Advanced + Job Ready
-- [ ] Day 47 · Nov 15 · Attribution, incrementality, MMM → GA4 model comparison
-- [ ] Day 48 · Nov 16 · CRO → 5 hypotheses, ICE scores
-- [ ] Day 49 · Nov 17 · Scaling → scaling plan
-- [ ] Day 50 · Nov 18 · Media planning → $10,000 media plan
-- [ ] Day 51 · Nov 19 · Sheets for marketers → pivot + chart
-- [ ] Day 52 · Nov 20 · Looker Studio → dashboard
-- [ ] Day 53 · Nov 21 · Reporting → weekly report
-- [ ] Day 54 · Nov 22 · Privacy + Consent Mode → consent banner
-- [ ] Day 55 · Nov 23 · AI in paid media → 20 AI ad variants, keep 5
-- [ ] Day 56 · Nov 24 · Account audits → 10 findings
-- [ ] Day 57 · Nov 25 · Portfolio → finalise 3 case studies
-- [ ] Day 58 · Nov 26 · Personal branding → CV + LinkedIn
-- [ ] Day 59 · Nov 27 · Interview prep → 20 questions, maths drills
-- [ ] Day 60 · Nov 28 · Final review → mock interview, 10 applications
+**Week 4**
 
-## Repo structure
+- [ ] Lesson 16: Google Tag Manager
+- [ ] Lesson 17: Conversions and key events
+- [ ] Lesson 18: Pixels, Conversions API, and enhanced conversions
+- [ ] Lesson 19: Privacy and Consent Mode
+- [ ] Lesson 20: Attribution
+- [ ] Phase 2 checkpoint: Tracking plan and live setup
 
-```
-01-foundations/      days 1–14 logs
-02-google-ads/       days 15–30 logs
-03-meta-channels/    days 31–46 logs
-04-advanced/         days 47–60 logs
-case-studies/        portfolio pieces
-templates/           daily log, case study, weekly report
-certificates/        certificate screenshots/PDFs
-reports/             exported data, dashboards, media plans
-```
+### Phase 3: Google Ads
+
+**Week 5**
+
+- [ ] Lesson 21: Auction, Ad Rank, and Quality Score
+- [ ] Lesson 22: Keyword research and match types
+- [ ] Lesson 23: Account structure and negative keywords
+- [ ] Lesson 24: Responsive search ads and assets
+- [ ] Lesson 25: Bidding and budgets
+- [ ] Week 5 review
+
+**Week 6**
+
+- [ ] Lesson 26: Build a campaign offline
+- [ ] Lesson 27: Search terms and reports
+- [ ] Lesson 28: Optimization playbook
+- [ ] Lesson 29: Performance Max and Shopping
+- [ ] Lesson 30: Display, YouTube, and remarketing
+- [ ] Phase 3 checkpoint: Google Search case study
+
+### Phase 4: Meta, other channels, and strategy
+
+**Week 7**
+
+- [ ] Lesson 31: Meta structure and objectives
+- [ ] Lesson 32: Meta audiences
+- [ ] Lesson 33: Creative strategy
+- [ ] Lesson 34: Creative testing and statistics
+- [ ] Lesson 35: Meta reporting and optimization
+- [ ] Week 7 review
+
+**Week 8**
+
+- [ ] Lesson 36: Retargeting and full funnel
+- [ ] Lesson 37: Other channels and email
+- [ ] Lesson 38: Media planning
+- [ ] Lesson 39: Reporting and dashboards
+- [ ] Lesson 40: Audits, scaling, and incrementality
+- [ ] Phase 4 checkpoint: Meta case study and final review

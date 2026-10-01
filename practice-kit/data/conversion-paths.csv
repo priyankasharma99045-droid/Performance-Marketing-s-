@@ -1,0 +1,13 @@
+conversion_id,path,revenue
+C01,Meta Prospecting > Google Search Brand,36.00
+C02,Google Search Generic,34.00
+C03,Meta Prospecting > Meta Retargeting,38.00
+C04,Meta Prospecting > Google Search Generic > Google Search Brand,40.00
+C05,Google Search Brand,36.00
+C06,Meta Prospecting > Email > Google Search Brand,42.00
+C07,Google Search Generic > Meta Retargeting,35.00
+C08,Meta Prospecting > Meta Retargeting > Email,37.00
+C09,Google Search Generic > Google Search Brand,33.00
+C10,Meta Prospecting,36.00
+C11,Meta Prospecting > Google Search Brand,39.00
+C12,Email,30.00

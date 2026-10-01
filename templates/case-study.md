@@ -1,46 +1,51 @@
-# Case Study: <title>
+# Case study: <campaign name>
 
-**Channel:** <Google Search / Meta / Strategy> · **Dates:** <start – end> · **Budget:** <$>
+**Channel:** <Google Search or Meta> · **Data:** <sample data, or live from DATE to DATE> · **Budget:** <amount>
 
-## 1. Business + goal
-- Business: <who, what they sell, where>
-- Goal: <leads / sales / sign-ups>
-- Target CPA or ROAS: <value> — maths: <margin, AOV, break-even ROAS = 1 ÷ margin>
+## 1. Situation
+
+- **Business:** <who, what they sell, where>
+- **Goal:** <sales or leads>
+- **Target:** <target CPA or ROAS, and the maths behind it>
 
 ## 2. Research
-- Persona:
-- Competitors (what their ads do):
-- Keyword / audience insights:
+
+- **Audience or keyword insight:**
+- **Competitor insight:**
 
 ## 3. Setup
-- Tracking: <GA4, GTM, Pixel/CAPI, conversion action>
-- Campaign structure: <campaigns > ad groups/ad sets > ads>
-- Budget + bidding:
-- Screenshots: `../reports/<file>`
 
-## 4. Creative + copy
-- What was tested and why:
+- **Tracking:** <what conversion is tracked and how>
+- **Structure:** <campaigns, ad groups or ad sets, ads>
+- **Budget and bidding:** <and why>
+
+## 4. Creative
+
+- **Main message:**
+- **What was tested, and why:**
 
 ## 5. Results
 
-| Metric | Value |
-| --- | --- |
-| Spend | |
-| Impressions | |
-| Clicks | |
-| CTR | |
-| CPC | |
-| Conversions | |
-| CVR | |
-| CPA | |
-| ROAS | |
+| Metric | Value | Versus target |
+|---|---|---|
+| Spend | | |
+| Impressions | | |
+| Clicks | | |
+| CTR | | |
+| CPC | | |
+| Conversions | | |
+| CVR | | |
+| CPA | | |
+| ROAS | | |
 
-## 6. Optimisations
-| Date | Change | Why | Result |
-| --- | --- | --- | --- |
+## 6. Diagnosis and optimizations
+
+| Finding | Evidence | Action | Expected result |
+|---|---|---|---|
 | | | | |
 
-## 7. Learnings + next steps
-- What worked:
-- What didn't:
-- With 10× budget I would:
+## 7. Learnings
+
+- **What worked:**
+- **What didn't:**
+- **With 10 times the budget, I'd:**
