@@ -1,6 +1,6 @@
 # Lesson __: <title>
 
-Date: <2026-10-1>
+Date: <YYYY-MM-DD>
 
 ## In my own words
 
@@ -8,13 +8,13 @@ Date: <2026-10-1>
 
 ## Three things I learned
 
-1.How To Browse Running Ads overall Internet Through Meta Ads Library / Google 
-2.Difference Between Capturing demand/ Creating demand for customers
-3.How Google Ads Chooses your ads for their space via the auction checklist and minimum thresholds to overcome the auction and serve your Ad spot  
+1.
+2.
+3.
 
 ## Practice result
 
-<!-- What you made, and a link or file path to it. Include one number if the practice had one. --> I made a Table of 5 brands ads analysis  
+<!-- What you made, and a link or file path to it. Include one number if the practice had one. -->
 
 ## Check yourself
 
