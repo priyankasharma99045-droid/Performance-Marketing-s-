@@ -1,6 +1,6 @@
-# Lesson __: <title>
+# Lesson _2_: Funnel and Customer Journey 
 
-Date: <YYYY-MM-DD>
+Date: 2026-Oct-3 
 
 ## In my own words
 
@@ -8,13 +8,13 @@ Date: <YYYY-MM-DD>
 
 ## Three things I learned
 
-1.
-2.
-3.
+1.I learned what psychological approach a human goes through before buying a product 
+2.I learned how each Ad becomes different at each stage of the funnel to target distinct goal 
+3.I learned how views on Ads are huge in numbers but on each stage of funnel it turns down plus I even brainstormed the humanitarian cause towards it 
 
 ## Practice result
 
-<!-- What you made, and a link or file path to it. Include one number if the practice had one. -->
+<!-- What you made, and a link or file path to it. Include one number if the practice had one. --> I made a table dissecting my choice of brand Victoria Secret Online marketing Funnel. Examined the leak point in Pebble Coffee co funnel. Did calculation of % over each stage of funnel 
 
 ## Check yourself
 
